@@ -110,7 +110,8 @@ body {
     margin: 0 30px;
     transition: all 0.5s;
 }
-.btn--big::after {
+
+.btn--big::after{
     content: attr(data-type);
     font-size: 1rem;
     color: #445361;
@@ -175,7 +176,11 @@ body {
 }
 
 /* --------- Media queries */
-
+@media (max-width: 955px) {
+    .btn--big::after {
+        display: none;
+    }
+}
 @media (max-width: 414px) {
     .controls-area {
         width: 100%;
@@ -191,8 +196,7 @@ body {
     }
 
     .btn--big::after {
-        font-size: 0.6rem;
-        left: -0.7rem;
+        display: none;
     }
 
     .question-area {
