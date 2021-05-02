@@ -1,2 +1,3 @@
 # lovemaths
-Love Maths - Walkthrough project.
+
+Love Maths - Walk through project.
